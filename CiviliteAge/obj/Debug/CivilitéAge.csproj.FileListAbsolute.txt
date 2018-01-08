@@ -1,0 +1,7 @@
+C:\Users\rajek\source\repos\CoursCSharp\Civilité\bin\Debug\Civilité.exe.config
+C:\Users\rajek\source\repos\CoursCSharp\Civilité\bin\Debug\Civilité.exe
+C:\Users\rajek\source\repos\CoursCSharp\Civilité\bin\Debug\Civilité.pdb
+C:\Users\rajek\source\repos\CoursCSharp\Civilité\obj\Debug\CivilitéAge.csproj.CoreCompileInputs.cache
+C:\Users\rajek\source\repos\CoursCSharp\Civilité\obj\Debug\Civilité.exe
+C:\Users\rajek\source\repos\CoursCSharp\Civilité\obj\Debug\Civilité.pdb
+C:\Users\rajek\source\repos\CoursCSharp\Civilité\obj\Debug\CivilitéAge.csprojResolveAssemblyReference.cache

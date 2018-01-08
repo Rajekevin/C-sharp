@@ -1,0 +1,3 @@
+C:\Users\rajek\source\repos\CoursCSharp\Civilité\obj\Debug\CiviliteAge.csproj.CoreCompileInputs.cache
+C:\Users\rajek\source\repos\CoursCSharp\Civilité\obj\Debug\Civilité.exe
+C:\Users\rajek\source\repos\CoursCSharp\Civilité\obj\Debug\Civilité.pdb
