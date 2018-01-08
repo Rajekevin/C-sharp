@@ -1,0 +1,7 @@
+C:\Users\rajek\source\repos\CoursCSharp\ConsoleClass\bin\Debug\ConsoleClass.exe.config
+C:\Users\rajek\source\repos\CoursCSharp\ConsoleClass\bin\Debug\ConsoleClass.exe
+C:\Users\rajek\source\repos\CoursCSharp\ConsoleClass\bin\Debug\ConsoleClass.pdb
+C:\Users\rajek\source\repos\CoursCSharp\ConsoleClass\obj\Debug\ConsoleClass.csprojResolveAssemblyReference.cache
+C:\Users\rajek\source\repos\CoursCSharp\ConsoleClass\obj\Debug\ConsoleClass.csproj.CoreCompileInputs.cache
+C:\Users\rajek\source\repos\CoursCSharp\ConsoleClass\obj\Debug\ConsoleClass.exe
+C:\Users\rajek\source\repos\CoursCSharp\ConsoleClass\obj\Debug\ConsoleClass.pdb
