@@ -1,0 +1,6 @@
+C:\Users\rajek\source\repos\CoursCSharp\Calculer\bin\Debug\Calculer.exe.config
+C:\Users\rajek\source\repos\CoursCSharp\Calculer\bin\Debug\Calculer.exe
+C:\Users\rajek\source\repos\CoursCSharp\Calculer\bin\Debug\Calculer.pdb
+C:\Users\rajek\source\repos\CoursCSharp\Calculer\obj\Debug\Calculer.csproj.CoreCompileInputs.cache
+C:\Users\rajek\source\repos\CoursCSharp\Calculer\obj\Debug\Calculer.exe
+C:\Users\rajek\source\repos\CoursCSharp\Calculer\obj\Debug\Calculer.pdb
