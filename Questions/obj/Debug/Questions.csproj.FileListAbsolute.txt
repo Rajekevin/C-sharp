@@ -1,0 +1,6 @@
+C:\Users\rajek\source\repos\CoursCSharp\Questions\bin\Debug\Questions.exe.config
+C:\Users\rajek\source\repos\CoursCSharp\Questions\bin\Debug\Questions.exe
+C:\Users\rajek\source\repos\CoursCSharp\Questions\bin\Debug\Questions.pdb
+C:\Users\rajek\source\repos\CoursCSharp\Questions\obj\Debug\Questions.csproj.CoreCompileInputs.cache
+C:\Users\rajek\source\repos\CoursCSharp\Questions\obj\Debug\Questions.exe
+C:\Users\rajek\source\repos\CoursCSharp\Questions\obj\Debug\Questions.pdb
