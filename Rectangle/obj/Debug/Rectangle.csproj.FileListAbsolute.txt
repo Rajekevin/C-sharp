@@ -1,0 +1,6 @@
+C:\Users\rajek\source\repos\CoursCSharp\Rectangle\bin\Debug\Rectangle.exe.config
+C:\Users\rajek\source\repos\CoursCSharp\Rectangle\bin\Debug\Rectangle.exe
+C:\Users\rajek\source\repos\CoursCSharp\Rectangle\bin\Debug\Rectangle.pdb
+C:\Users\rajek\source\repos\CoursCSharp\Rectangle\obj\Debug\Rectangle.csproj.CoreCompileInputs.cache
+C:\Users\rajek\source\repos\CoursCSharp\Rectangle\obj\Debug\Rectangle.exe
+C:\Users\rajek\source\repos\CoursCSharp\Rectangle\obj\Debug\Rectangle.pdb
