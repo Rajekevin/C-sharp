@@ -10,11 +10,11 @@ namespace Tableau
     {
         static void Main(string[] args)
         {
-
             Console.Write("Donnez la taille de votre tableau :");
             int n = int.Parse(Console.ReadLine());
 
             Tableaux.SommeTab(Tableaux.SaisieTab(n));
+            Console.ReadLine();
         }
     }
 }

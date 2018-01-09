@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WpfTest"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid RenderTransformOrigin="0.5,0.5" Margin="0,0,0,2">
+    <Grid x:Name="textboxCPU" RenderTransformOrigin="0.5,0.5" Margin="0,0,0,2">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="Black" Offset="0"/>
@@ -27,7 +27,17 @@
                 <TranslateTransform/>
             </TransformGroup>
         </Grid.RenderTransform>
-        <Button Content="Valider" Grid.Column="2" HorizontalAlignment="Left" Margin="83,165,0,0" VerticalAlignment="Top" Width="194" RenderTransformOrigin="0.534,1.791" Height="71" Click="Button_Click" Background="#FFECE9E2" FontWeight="Bold"/>
+        <Button Content="Valider" Grid.Column="2" HorizontalAlignment="Left" Margin="85,236,0,0" VerticalAlignment="Top" Width="194" RenderTransformOrigin="0.534,1.791" Height="71" Click="Button_Click" Background="#FFECE9E2" FontWeight="Bold"/>
+        <Label Content="Nom" Grid.Column="2" HorizontalAlignment="Left" Margin="27,50,0,0" VerticalAlignment="Top" Width="40" Background="{x:Null}" FontWeight="Bold" Foreground="#FFECD9D9"/>
+        <Label Content="Message" Grid.Column="2" HorizontalAlignment="Left" Margin="27,90,0,0" VerticalAlignment="Top" Width="64" Background="{x:Null}" FontWeight="Bold" Foreground="#FFECDFDF"/>
+        <Label Content="CPU" Grid.Column="2" HorizontalAlignment="Left" Margin="27,134,0,0" VerticalAlignment="Top" Width="40" Background="{x:Null}" FontWeight="Bold" Foreground="#FFFFF5F5"/>
+        <Label Content="RAM" Grid.Column="2" HorizontalAlignment="Left" Margin="27,177,0,0" VerticalAlignment="Top" Width="50" Background="{x:Null}" FontWeight="Bold" Foreground="#FFF3F1F1"/>
+        <TextBox Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="125,50,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textboxMsg" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="125,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="125,50,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textboxNom" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="125,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textboxCPU1" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="125,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textboxRam" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="125,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>

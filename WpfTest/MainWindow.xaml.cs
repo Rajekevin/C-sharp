@@ -26,8 +26,9 @@ namespace WpfTest
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Vous avez clicker sur le bouton valider");
+        {            
+            string s = textboxCPU1.Text+ " " + textboxNom.Text+ " " + textboxRam.Text;              
+            MessageBox.Show(s);
         }
     }
 }

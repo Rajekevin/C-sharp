@@ -1,7 +1,6 @@
-C:\Users\rajek\source\repos\CoursCSharp\CoursCSharp\obj\Debug\CoursCSharp.csprojResolveAssemblyReference.cache
-C:\Users\rajek\source\repos\CoursCSharp\CoursCSharp\obj\Debug\CoursCSharp.csproj.CoreCompileInputs.cache
 C:\Users\rajek\source\repos\CoursCSharp\CoursCSharp\bin\Debug\CoursCSharp.exe.config
 C:\Users\rajek\source\repos\CoursCSharp\CoursCSharp\bin\Debug\CoursCSharp.exe
 C:\Users\rajek\source\repos\CoursCSharp\CoursCSharp\bin\Debug\CoursCSharp.pdb
+C:\Users\rajek\source\repos\CoursCSharp\CoursCSharp\obj\Debug\CoursCSharp.csproj.CoreCompileInputs.cache
 C:\Users\rajek\source\repos\CoursCSharp\CoursCSharp\obj\Debug\CoursCSharp.exe
 C:\Users\rajek\source\repos\CoursCSharp\CoursCSharp\obj\Debug\CoursCSharp.pdb

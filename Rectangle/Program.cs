@@ -10,7 +10,7 @@ namespace Rectangle
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Le Périmètre du Rectangle est de " + Geometrie.PerimetreRectangle(2, 2));
+            Console.WriteLine("Le Périmètre du Rectangle est de " + Geometrie.PerimetreRectangle());
             Console.WriteLine("L'aire de la surface de Rectangle est de " +Geometrie.SurfaceRectangle(2, 2));
             Console.ReadLine();
         }

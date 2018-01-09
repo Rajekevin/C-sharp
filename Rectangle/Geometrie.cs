@@ -9,10 +9,19 @@ namespace Rectangle
     public class Geometrie
     {
 
-        public static int PerimetreRectangle(int longueur, int largeur)
+        public static double PerimetreRectangle()
         {
+            int longueur;
+            double largeur;
             //Périmètre P = (L + l) x 2
-            int perimetre = (longueur + largeur) * 2;
+
+            Console.WriteLine("Donnez la longueur du Rectangle");            
+            longueur = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Donnez la longueur du Rectangle");          
+            largeur = double.Parse(Console.ReadLine());
+
+            double perimetre = (longueur + largeur) * 2;
             return perimetre;
         }
 
