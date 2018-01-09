@@ -45,8 +45,9 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <Image x:Name="imgArticle" Grid.Column="2" HorizontalAlignment="Left" Height="81" Margin="235,226,0,0" VerticalAlignment="Top" Width="80"/>
+        <Image x:Name="imgArticle" Grid.Column="2" Height="81" Margin="235,226,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="80"/>
         <Button Content="Importer" Grid.Column="2" HorizontalAlignment="Left" Margin="333,254,0,0" VerticalAlignment="Top" Width="79" RenderTransformOrigin="0.534,1.791" Height="36" Click="Button_Click" Background="#FFECE9E2" FontWeight="Bold" Grid.ColumnSpan="2"/>
+        <Button x:Name="Save" Content="Save" Grid.Column="2" HorizontalAlignment="Left" Margin="235,217,0,0" VerticalAlignment="Top" Width="75" Height="46" Click="Save_Click"/>
 
     </Grid>
 </Window>

@@ -1,0 +1,17 @@
+﻿<Window x:Class="Memo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Memo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="btnPlus" Content="+" HorizontalAlignment="Left" VerticalAlignment="Top" Width="48" Margin="439,49,0,0" Height="23" Click="Button_Click"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="910,147,-493,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Saisie : " HorizontalAlignment="Left" Margin="319,23,0,0" VerticalAlignment="Top" Width="99"/>
+        <TextBox x:Name="textboxSaisie" HorizontalAlignment="Left" Height="23" Margin="319,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ListBox x:Name="ListeDesTaches" HorizontalAlignment="Left" Height="186" Margin="27,23,0,0" VerticalAlignment="Top" Width="201"/>
+
+    </Grid>
+</Window>

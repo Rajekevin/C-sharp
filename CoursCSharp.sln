@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liste", "Liste\Liste.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTest", "WpfTest\WpfTest.csproj", "{C99389E5-CFC6-46CA-8AE1-9F74A9A15933}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memo", "Memo\Memo.csproj", "{BC695247-1827-48E3-B6AE-2A8BCB376065}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{C99389E5-CFC6-46CA-8AE1-9F74A9A15933}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C99389E5-CFC6-46CA-8AE1-9F74A9A15933}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C99389E5-CFC6-46CA-8AE1-9F74A9A15933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC695247-1827-48E3-B6AE-2A8BCB376065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC695247-1827-48E3-B6AE-2A8BCB376065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC695247-1827-48E3-B6AE-2A8BCB376065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC695247-1827-48E3-B6AE-2A8BCB376065}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

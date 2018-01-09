@@ -1,6 +1,7 @@
 ﻿using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -58,9 +59,16 @@ namespace WpfTest
 
             if(odf.ShowDialog() == true)
             {
+
+                string textAInserer = "";
                 //On écrit le fichier
                 //Le contenu de notre fichier
+                foreach (string item in listviewAffiche.Items)
+                {
+                    textAInserer = textAInserer + "\r\n" + item;
+                }
 
+                File.WriteAllText(odf.FileName, textAInserer);
 
 
             }
