@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,13 +23,47 @@ namespace WpfTest
     {
         public MainWindow()
         {
+
+          
             InitializeComponent();
+            InitializeCbMarque();
+        }
+
+        private void InitializeCbMarque()
+        {
+         // textboxNom.Items.Add('DELL');
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
-        {            
-            string s = textboxCPU1.Text+ " " + textboxNom.Text+ " " + textboxRam.Text;              
-            MessageBox.Show(s);
+        {
+            /*  string s = textboxCPU1.Text+ " " + textboxNom.Text+ " " + textboxRam.Text;              
+              MessageBox.Show(s);
+
+
+              listviewAffiche.Items.Add(s);*/
+            OpenFileDialog ofd = new OpenFileDialog();
+
+            if (ofd.ShowDialog() == true)
+            {
+                string s = ofd.FileName;
+                imgArticle.Source = new BitmapImage(new Uri(s));
+            }
+
+        }
+
+        private void Save_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog odf = new OpenFileDialog();
+
+            if(odf.ShowDialog() == true)
+            {
+                //On écrit le fichier
+                //Le contenu de notre fichier
+
+
+
+            }
         }
     }
 }

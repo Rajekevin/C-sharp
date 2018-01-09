@@ -27,7 +27,7 @@
                 <TranslateTransform/>
             </TransformGroup>
         </Grid.RenderTransform>
-        <Button Content="Valider" Grid.Column="2" HorizontalAlignment="Left" Margin="85,236,0,0" VerticalAlignment="Top" Width="194" RenderTransformOrigin="0.534,1.791" Height="71" Click="Button_Click" Background="#FFECE9E2" FontWeight="Bold"/>
+        <Button Content="Valider" Grid.Column="1" HorizontalAlignment="Left" Margin="67,236,0,0" VerticalAlignment="Top" Width="194" RenderTransformOrigin="0.534,1.791" Height="71" Click="Button_Click" Background="#FFECE9E2" FontWeight="Bold" Grid.ColumnSpan="2"/>
         <Label Content="Nom" Grid.Column="2" HorizontalAlignment="Left" Margin="27,50,0,0" VerticalAlignment="Top" Width="40" Background="{x:Null}" FontWeight="Bold" Foreground="#FFECD9D9"/>
         <Label Content="Message" Grid.Column="2" HorizontalAlignment="Left" Margin="27,90,0,0" VerticalAlignment="Top" Width="64" Background="{x:Null}" FontWeight="Bold" Foreground="#FFECDFDF"/>
         <Label Content="CPU" Grid.Column="2" HorizontalAlignment="Left" Margin="27,134,0,0" VerticalAlignment="Top" Width="40" Background="{x:Null}" FontWeight="Bold" Foreground="#FFFFF5F5"/>
@@ -38,6 +38,15 @@
         <TextBox x:Name="textboxNom" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="125,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="textboxCPU1" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="125,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="textboxRam" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="125,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ListView x:Name="listviewAffiche" Grid.ColumnSpan="2" Grid.Column="2" HorizontalAlignment="Left" Height="154" Margin="273,50,0,0" VerticalAlignment="Top" Width="139" Background="#FFFFF5F5">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Image x:Name="imgArticle" Grid.Column="2" HorizontalAlignment="Left" Height="81" Margin="235,226,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button Content="Importer" Grid.Column="2" HorizontalAlignment="Left" Margin="333,254,0,0" VerticalAlignment="Top" Width="79" RenderTransformOrigin="0.534,1.791" Height="36" Click="Button_Click" Background="#FFECE9E2" FontWeight="Bold" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>
