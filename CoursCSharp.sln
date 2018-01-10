@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTest", "WpfTest\WpfTest.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memo", "Memo\Memo.csproj", "{BC695247-1827-48E3-B6AE-2A8BCB376065}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPWpf", "IPWpf\IPWpf.csproj", "{391784F2-29B9-4D73-AACC-A4487D47CDDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{BC695247-1827-48E3-B6AE-2A8BCB376065}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC695247-1827-48E3-B6AE-2A8BCB376065}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC695247-1827-48E3-B6AE-2A8BCB376065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{391784F2-29B9-4D73-AACC-A4487D47CDDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{391784F2-29B9-4D73-AACC-A4487D47CDDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{391784F2-29B9-4D73-AACC-A4487D47CDDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{391784F2-29B9-4D73-AACC-A4487D47CDDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
