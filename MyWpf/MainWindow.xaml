@@ -14,7 +14,7 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <Button x:Name="btnDB" Content="AccesDB" HorizontalAlignment="Left" VerticalAlignment="Top" Width="97" Margin="209,61,0,0" Height="30"/>
+        <Button x:Name="btnDB" Content="AccesDB" HorizontalAlignment="Left" VerticalAlignment="Top" Width="97" Margin="209,61,0,0" Height="30" Click="btnDB_Click"/>
 
     </Grid>
 </Window>
