@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -27,7 +29,7 @@ namespace Livre
         }
 
         private void btnValider_Click(object sender, RoutedEventArgs e)
-        {          
+        {
             //Nom du serveur / nom de la base / mode authentification / compte à utiliser
             SqlConnection cnx = new SqlConnection(
                 @"Data Source=DESKTOP-7H2T06B\SQLEXPRESS; Initial Catalog=librairie;  integrated security=True"
@@ -51,18 +53,34 @@ namespace Livre
 
             cmd.Parameters.AddWithValue("@txtboxISBN", txtboxISBN.Text);
             cmd.Parameters.AddWithValue("@txtboxTitre", txtboxTitre.Text);
-            cmd.Parameters.AddWithValue("@txtResume",  txtResume.Text);
+            cmd.Parameters.AddWithValue("@txtResume", txtResume.Text);
 
             //Execution de l'UPDATE
-            SqlDataReader dateReader = cmd.ExecuteReader();
+           
             MessageBox.Show("Reader executé");
 
-            while (dateReader.Read())
-            {    
-                string titre = (string)dateReader["titre"];
+            int result = cmd.ExecuteNonQuery();
 
-                listViewAffiche.Items.Add(titre);
+            // Check Error
+            if (result < 0) {
+                MessageBox.Show("Error inserting data into Database!");
             }
+            
+            SqlCommand command = cnx.CreateCommand();
+            command.CommandText = "SELECT * FROM Livre ";
+         
+            SqlDataReader dateReader = command.ExecuteReader();
+            MessageBox.Show("Reader executé");
+            
+            while (dateReader.Read())
+            {
+                string titre = (string)dateReader["titre"];
+                listViewAffiche.Items.Add(titre);
+            }     
+                             
+            cnx.Close();
         }
+
+     
     }
 }
